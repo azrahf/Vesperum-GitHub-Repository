@@ -46,7 +46,7 @@ const characters = {
         age: "324",
         player: "Owner",
 
-        image: "assets/personajes/hwa.jpeg",
+        image: "hwa.jpeg",
 
         story: "Heredero legítimo, Seonghwa gobierna a los vampiros bajo una monarquía que equilibra el poder de la corona y la aristocracia. Junto a su esposo y su único hijo, el príncipe heredero, preserva el legado de su dinastía. Sin embargo, oculta conocimientos sobre los impuros que podrían cambiar el destino de todo el reino.",
 
@@ -65,7 +65,7 @@ const characters = {
         age: "323",
         player: "Administrador",
 
-        image: "assets/personajes/woo.jpeg",
+        image: "woo.jpeg",
 
         story: "Jung Wooyoung, un vampiro de 323 años, es un aristócrata de elegancia afilada y autoridad inquebrantable que exige respeto como el hombre que es. Tras los portones de su mansión oculta un secreto letal: su sangre, con aroma a rosas, es un dulce veneno capaz de embriagar a otros vampiros y matarlos si consumen demasiado. Condenado al aislamiento para proteger su linaje, vive como un príncipe intocable, guardando celosamente el peligro que corre por sus venas.",
 
@@ -84,7 +84,7 @@ const characters = {
         age: "200",
         player: "Administrador",
 
-        image: "assets/personajes/jake.jpeg",
+        image: "jake.jpeg",
 
         story: "Sim Jaeyun es un vampiro de linaje real, hijo de dos soberanos y heredero de una de las dinastías más antiguas de la aristocracia vampírica. Criado en un majestuoso palacio, fue educado en las tradiciones de la corona, la diplomacia y el arte de gobernar. Su elegancia y presencia imponente reflejan su sangre noble, mientras carga con la responsabilidad de preservar el legado de su familia. Destinado al trono, aguarda el día en que deje de ser príncipe para convertirse en rey.",
 
