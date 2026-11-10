@@ -1,0 +1,596 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#100e10">
+
+    <title>Vesperum | Archivo de la Eternidad</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVEGACIÓN -->
+
+    <header class="navbar">
+
+        <a href="#inicio" class="brand">VESPERUM</a>
+
+        <nav id="nav-menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#historia">El lore</a>
+            <a href="#castas">Castas</a>
+            <a href="#ocupados">Ocupados</a>
+            <a href="#integrantes">Integrantes</a>
+            <a href="#buscados">Buscados</a>
+            <a href="#normas">Normativas</a>
+        </nav>
+
+        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+            ☰
+        </button>
+
+    </header>
+
+
+    <main>
+
+        <!-- PORTADA -->
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    ARCHIVO CONFIDENCIAL · DESDE TIEMPOS INMEMORIALES
+                </p>
+
+                <h1>VESPERUM</h1>
+
+                <div class="ornament">✦ ━━━━━━━━━ ✦</div>
+
+                <p class="hero-description">
+                    Algunas historias no terminan con la muerte.
+                    Algunas simplemente comienzan después de ella.
+                </p>
+
+                <a href="#historia" class="main-button">
+                    DESCUBRIR EL UNIVERSO
+                </a>
+
+            </div>
+
+            <div class="hero-bottom">
+                <span>UNA HISTORIA DE SANGRE Y ETERNIDAD</span>
+            </div>
+
+        </section>
+
+
+        <!-- LORE -->
+
+        <section class="section lore-section" id="historia">
+
+            <p class="eyebrow">I · EL PRINCIPIO DE TODO</p>
+
+            <h2>Una eternidad escrita en sangre</h2>
+
+            <div class="divider"></div>
+
+            <p class="section-text">
+                Bienvenido a un mundo donde la eternidad tiene un precio,
+                los secretos sobreviven a los siglos y la sangre determina
+                mucho más que el origen de una criatura.
+            </p>
+
+            <p class="section-text">
+                Detrás de cada familia existe una historia, detrás de cada
+                apellido una herencia y detrás de cada promesa una verdad
+                que quizá nunca debió salir a la luz.
+            </p>
+
+            <p class="section-text">
+                El verdadero relato de este universo está esperando ser
+                descubierto.
+            </p>
+
+        </section>
+
+
+        <!-- JERARQUÍAS -->
+
+        <section class="section castes-section" id="castas">
+
+            <p class="eyebrow">II · ORDEN Y JERARQUÍA</p>
+
+            <h2>Las castas</h2>
+
+            <div class="divider"></div>
+
+            <p class="section-text">
+                Ninguna sociedad permanece en pie sin un orden.
+                Conoce las diferentes castas que conforman este universo.
+            </p>
+
+            <div class="caste-grid">
+
+                <article class="caste-card">
+                    <span>Ⅰ</span>
+                    <h3>La nobleza</h3>
+                    <p>
+                        Antiguos linajes de sangre pura cuya influencia
+                        y legado han perdurado durante siglos. Sus apellidos
+                        representan poder, prestigio y derecho hereditario.
+                    </p>
+                </article>
+
+                <article class="caste-card">
+                    <span>Ⅱ</span>
+                    <h3>La aristocracia</h3>
+                    <p>
+                        Casas distinguidas y figuras de influencia que
+                        participan en el gobierno, la política y el
+                        mantenimiento del orden social.
+                    </p>
+                </article>
+
+                <article class="caste-card">
+                    <span>Ⅲ</span>
+                    <h3>El resto de la sociedad</h3>
+                    <p>
+                        Habitantes que conforman la vida cotidiana de
+                        Vesperum, desde comerciantes hasta ciudadanos
+                        sin títulos ni privilegios hereditarios.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- FAMILIA REAL -->
+
+        <section class="section characters-section" id="ocupados">
+
+            <p class="eyebrow">III · REGISTRO DE IDENTIDADES</p>
+
+            <h2>La familia real</h2>
+
+            <div class="divider"></div>
+
+            <p class="section-text">
+                Tres figuras que representan el poder, la sangre
+                y la continuidad del linaje real de Vesperum.
+            </p>
+
+            <h3 class="group-title">La corona de Vesperum</h3>
+
+            <div class="character-grid">
+
+                <!-- PARK SEONGHWA -->
+
+                <button
+                    class="character-card"
+                    data-character="seonghwa"
+                    type="button">
+
+                    <div class="portrait">
+
+                        <img
+                            src="hwa.jpeg"
+                            alt="Park Seonghwa, primer rey de Vesperum">
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <span class="status">REY</span>
+
+                        <h3>Park Seonghwa</h3>
+
+                        <p>Primer soberano</p>
+
+                        <small>VER EXPEDIENTE ↗</small>
+
+                    </div>
+
+                </button>
+
+
+                <!-- JUNG WOOYOUNG -->
+
+                <button
+                    class="character-card"
+                    data-character="wooyoung"
+                    type="button">
+
+                    <div class="portrait">
+
+                        <img
+                            src="woo.jpeg"
+                            alt="Jung Wooyoung, segundo rey de Vesperum">
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <span class="status">SEGUNDO REY</span>
+
+                        <h3>Jung Wooyoung</h3>
+
+                        <p>Segundo soberano</p>
+
+                        <small>VER EXPEDIENTE ↗</small>
+
+                    </div>
+
+                </button>
+
+
+                <!-- SIM JAKE -->
+
+                <button
+                    class="character-card"
+                    data-character="jake"
+                    type="button">
+
+                    <div class="portrait">
+
+                        <img
+                            src="jake.jpeg"
+                            alt="Sim Jake, príncipe heredero de Vesperum">
+
+                    </div>
+
+                    <div class="character-info">
+
+                        <span class="status">HEREDERO</span>
+
+                        <h3>Sim Jake</h3>
+
+                        <p>Príncipe heredero</p>
+
+                        <small>VER EXPEDIENTE ↗</small>
+
+                    </div>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- VENTANA ÚNICA DE EXPEDIENTES -->
+
+        <div
+            class="character-modal"
+            id="character-modal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="modal-name"
+            aria-hidden="true"
+            hidden>
+
+            <div class="modal-backdrop" data-close-modal></div>
+
+            <article class="modal-content">
+
+                <button
+                    class="modal-close"
+                    id="modal-close"
+                    type="button"
+                    aria-label="Cerrar expediente">
+
+                    ×
+
+                </button>
+
+                <div class="modal-portrait">
+
+                    <img
+                        id="modal-image"
+                        src=""
+                        alt="">
+
+                </div>
+
+                <div class="modal-details">
+
+                    <p class="eyebrow" id="modal-category">
+                        ARCHIVO REAL
+                    </p>
+
+                    <h2 id="modal-name"></h2>
+
+                    <p class="modal-title" id="modal-title"></p>
+
+                    <div class="divider"></div>
+
+                    <p>
+                        <strong>Jerarquía:</strong>
+                        <span id="modal-caste"></span>
+                    </p>
+
+                    <p>
+                        <strong>Edad:</strong>
+                        <span id="modal-age"></span>
+                    </p>
+
+                    <p>
+                        <strong>Interpretado por:</strong>
+                        <span id="modal-player"></span>
+                    </p>
+
+                    <h3>Historia</h3>
+
+                    <p id="modal-story"></p>
+
+                    <h3>Personalidad</h3>
+
+                    <p id="modal-personality"></p>
+
+                    <h3>Relaciones</h3>
+
+                    <p id="modal-relations"></p>
+
+                </div>
+
+            </article>
+
+        </div>
+
+
+        <!-- INTEGRANTES -->
+
+        <section class="section members-section" id="integrantes">
+
+            <p class="eyebrow">IV · REGISTRO DE HABITANTES</p>
+
+            <h2>Integrantes de Vesperum</h2>
+
+            <div class="divider"></div>
+
+            <p class="section-text">
+                Más allá de la corona y de las grandes casas, existen
+                individuos cuyas decisiones también forman parte
+                de la historia de Vesperum.
+            </p>
+
+
+            <!-- VAMPIROS -->
+
+            <h3 class="member-category">
+                <span>✦</span> V A M P I R O S.
+            </h3>
+
+            <div class="members-grid">
+
+                <article class="member-card">
+                    <h4>Kim Taehyung</h4>
+                    <span class="member-species vampire">Vampiro</span>
+                    <p>Integrante</p>
+                </article>
+
+                <article class="member-card">
+                    <h4>Christopher Bang Chan</h4>
+                    <span class="member-species vampire">Conde vampiro</span>
+                    <p>Integrante</p>
+                </article>
+                
+                <article class="member-card">
+                    <h4>Kim Sunoo</h4>
+                    <span class="member-species vampire">Vampiro</span>
+                    <p>Integrante</p>
+                </article>
+
+                <article class="member-card">
+                    <h4>Park Sunghoon</h4>
+                    <span class="member-species vampire">Vampiro</span>
+                    <p>Integrante</p>
+                </article>
+
+                <article class="member-card">
+                    <h4>Kang Yeosang</h4>
+                    <span class="member-species vampire">Vampiro</span>
+                    <p>Integrante</p>
+                </article>
+                
+                <article class="member-card">
+                    <h4>Ahn Seongmin</h4>
+                    <span class="member-species vampire">Vampiro</span>
+                    <p>Integrante</p>
+                </article>
+
+                  <article class="member-card">
+                    <h4>Choi Jongho</h4>
+                    <span class="member-species vampire">Vampiro</span>
+                    <p>Integrante</p>
+                </article>
+
+            <article class="member-card">
+                    <h4>Lee Heeseung</h4>
+                    <span class="member-species vampire">Vampiro</span>
+                    <p>Integrante</p>
+                </article>
+
+            <article class="member-card">
+                    <h4>Choi San</h4>
+                    <span class="member-species vampire">Vampiro</span>
+                    <p>Integrante</p>
+                </article>
+
+                <article class="member-card">
+                    <h4>Nishimura Riki</h4>
+                    <span class="member-species vampire">Vampiro</span>
+                    <p>Integrante</p>
+                </article>
+
+
+            </div>
+
+
+            <!-- CAZADORES -->
+
+            <h3 class="member-category">
+                <span>✦</span> C A Z A D O R E S.
+            </h3>
+
+            <div class="members-grid">
+
+                <article class="member-card">
+                    <h4>Hokazono Iroha</h4>
+                    <span class="member-species hunter">Cazadora</span>
+                    <p>Integrante</p>
+                </article>
+
+                <article class="member-card">
+                    <h4>Hwang Intak</h4>
+                    <span class="member-species hunter">Cazador</span>
+                    <p>Integrante</p>
+                </article>
+
+               <article class="member-card">
+                    <h4>Kim Jennie</h4>
+                    <span class="member-species hunter">Cazadora</span>
+                    <p>Integrante</p>
+                </article>
+
+
+            </div>
+
+
+            <!-- IMPUROS -->
+
+            <h3 class="member-category">
+                <span>✦</span> Impuros
+            </h3>
+
+            <div class="members-grid">
+
+                <article class="member-card">
+                    <h4>Jeong Yunho</h4>
+                    <span class="member-species impure">Impuro</span>
+                    <p>Integrante</p>
+                </article>
+
+                <article class="member-card">
+                    <h4>Song Hyeongjun</h4>
+                    <span class="member-species impure">Impuro</span>
+                    <p>Integrante</p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ROLES BUSCADOS -->
+
+        <section class="section wanted-section" id="buscados">
+
+            <p class="eyebrow">V · LUGARES POR OCUPAR</p>
+
+            <h2>Roles buscados por el team</h2>
+
+            <div class="divider"></div>
+
+            <p class="section-text">
+                Algunas historias necesitan de otros protagonistas.
+                Estos son los personajes que esperamos encontrar.
+            </p>
+
+            <div class="wanted-grid">
+
+                <article class="wanted-card">
+
+                    <span class="wanted-label">DISPONIBLE</span>
+
+                    <h3>Personaje buscado: Jungkook - BTS</h3>
+
+                </article>
+
+             <article class="wanted-card">
+
+                    <span class="wanted-label">DISPONIBLE</span>
+
+                    <h3>Personaje buscado: Karina - AESPA </h3>
+
+                </article>
+
+             <article class="wanted-card">
+
+                    <span class="wanted-label">DISPONIBLE</span>
+
+                    <h3>Personaje buscado: Sakura - LE SSERAFIM </h3>
+
+                </article>
+ 
+            </div>
+
+        </section>
+
+
+        <!-- NORMATIVAS -->
+
+        <section class="section rules-section" id="normas">
+
+            <p class="eyebrow">VI · DISPOSICIONES DEL ARCHIVO</p>
+
+            <h2>Normativas</h2>
+
+            <div class="divider"></div>
+
+            <p class="section-text">
+                Todo integrante deberá conocer y respetar las reglas
+                establecidas para mantener el orden de nuestra comunidad.
+            </p>
+
+            <div class="rules-box">
+
+                <p>01. Respeto entre todos los integrantes.</p>
+
+                <p>02. Respetar las dinámicas y acuerdos del team.</p>
+
+                <p>03. Mantener actualizada la información de los personajes.</p>
+
+                <p>04. Consultar a la administración ante cualquier duda.</p>
+
+                <p>05. No Santos Bravos ni Katseye. Tampoco personajes 2D.</p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- PIE DE PÁGINA -->
+
+    <footer>
+
+        <div class="ornament">✦ ━━━━━━━━━ ✦</div>
+
+        <h2>VESPERUM</h2>
+
+        <p>La eternidad nunca olvida.</p>
+
+        <small>© 2026 · TODOS LOS DERECHOS RESERVADOS</small>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
